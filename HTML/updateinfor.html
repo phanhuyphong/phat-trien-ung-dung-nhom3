@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chu</title>
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- Trang này tui làm xấu quá ai có ý tưởng gì tới thứ 2 góp ý thêm nhe, tén kiều cả nhóm -->
+</head>
+<body>
+    <div class="fluid-container" style="text-align: center;">
+        <div class="header" style="width: 100%;height:100px;">
+            <div class="row" style="height:70px;width:100%; background-color:white;text-align:center;">
+                <div class="col-4">
+                    <img src="../IMG/images.jpg" alt="" class="logo" style="width:30%; height: 70px;;">
+                </div>
+                <div class="col-4" style="margin-top:10px;">
+                    <ul class="navbar" style="list-style-type: none;">
+                        <li class="nav-item"><a href="../index.html">HOME</a></li>
+                        <li class="nav-item"><a href="../HTML/menu.html">MENU</a></li>
+                        <li class="nav-item"><a href="../HTML/manager.html">ABOUT</a></li>  
+                        <!-- vì lí do chưa code trang about nên toai link thử trang quản lí vào đây. Chứ không phải toai bị ngáo link nhầm, tén kiều -->
+                        <li class="nav-item"><a href="../HTML/contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="col-4"style="margin-top:10px; font-size: 20px;">
+                    <!-- Chỗ này là mô tả cái ảnh đại diện nhe -->
+                        <img style="width:50px; height:50px; border-radius:100%" src="../IMG/Doraemon_29.webp" alt="">
+                        <span>Username</span>
+                    </div>
+            </div>
+        </div>
+        <center>
+            <div class="infor">
+                <h3 style="text-align:center">THÔNG TIN CÁ NHÂN</h3>
+                <table style="width:100%; height:50%;">
+                    <tr>
+                        <td>Mã người dùng:</td>
+                        <td><input type="text" name="id" readonly value="20018201"></td>
+                    </tr>
+                    <tr>
+                        <td>Tên người dùng:</td>
+                        <td><input type="text" name="name" readonly value="Nguyễn Thị Thúy An"></td>
+                    </tr>
+                    <tr>
+                        <td>Ngày sinh</td>
+                        <td><input type="text" name="birdth" readonly value="24/01/2002"></td>
+                    </tr>
+                    <tr>
+                        <td>Địa chỉ</td>
+                        <td><input type="text" name="address" readonly value="Đồng Tháp"></td>
+                    </tr>
+                    <tr>
+                        <td>Số điện thoại</td>
+                        <td><input type="text" name="phone" readonly value="0385243969"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                        <a style="margin-left: 20%;" class="btn btn-warning" data-bs-toggle="modal" href='#update'>Update</a>
+                        <div class="modal fade" id="update">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">Sửa thông tin</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="#" method="post" name="update">
+                                            <div class="row">
+                                                <div class="col-4">Tên người dùng</div>
+                                                <div class="col-4"><input type="text" name="updatename"></div>
+                                            </div>
+                                            <br>
+                                            <div class="row">
+                                                <div class="col-4">Ngày sinh</div>
+                                                <div class="col-4"><input type="date" name="updatebirth"></div>
+                                            </div>
+                                            <br>
+                                            <div class="row">
+                                                <div class="col-4">Địa chỉ</div>
+                                                <div class="col-4"><input type="text" name="updateaddress"></div>
+                                            </div>
+                                            <br>
+                                            <div class="row">
+                                                <div class="col-4">Số điện thoại</div>
+                                                <div class="col-4"><input type="text" name="updatephone"></div>
+                                            </div>
+                                            <br>
+                                            <div class="row">
+                                                <div class="col-4">Email</div>
+                                                <div class="col-4"><input type="email" name="updatmail"></div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </center>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+    <div class="fluid-container">
+        <div class="header" style="width: 100%;height:500px; background-image:url('../IMG/menubanner.webp')">
+            <div class="row" style="height:70px;width:100%; background-color:white;text-align:center;">
+                <div class="col-4">
+                    <a title="Click here back HOME "href="../index.html"><img src="../IMG/images.jpg" alt="" class="logo" style="width:30%; height: 70px;;"></a>
+                </div>
+                <div class="col-4" style="margin-top:10px;">
+                    <ul class="navbar" style="list-style-type: none;">
+                        <li class="nav-item"><a href="../index.html">HOME</a></li>
+                        <li class="nav-item"><a href="../HTML/menu.html">MENU</a></li>
+                        <li class="nav-item"><a href="../HTML/manager.html">ABOUT</a></li>  
+                        <!-- vì lí do chưa code trang about nên toai link thử trang quản lí vào đây. Chứ không phải toai bị ngáo link nhầm, tén kiều -->
+                        <li class="nav-item"><a href="../HTML/contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row" style="margin-top:200px;">
+                <div class="col-12">
+                    <p style="text-align:center; color:white;font-size:48px;">LIÊN HỆ CHÚNG TÔI</p>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="row" style="width:80%;height:400px; margin:5% 10%">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.8581690910464!2d106.68427047436707!3d10.822164158349775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174deb3ef536f31%3A0x8b7bb8b7c956157b!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBUUC5IQ00!5e0!3m2!1svi!2s!4v1698903248367!5m2!1svi!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="row" style="width:80%;height:300px;text-align:center; margin:0 10%;">
+                    <h2>SEND US MESSAGE</h2>
+                    <form action="#" method="post" name="contactform">
+                        <input style="width:300px;height:50px; border-radius:10px;" type="text" name="contact-name" placeholder="Name" requied>
+                        <input style="width:300px;height:50px; border-radius:10px;margin-left:50px;" type="email" name="contact-mail" placeholder="Email" requied> <br>
+                        <input type="text" name="message" style="width:650px;height:100px; border-radius:10px; margin-top:20px;" placeholder="message"> <br>
+                        <input style="width:70px; height:50px;border-radius:10px;margin-top:10px;" type="submit" value="Send" name="btnContact" class="btn-primary">
+                    </form>
+            </div>
+        </section>
+        <footer style="float: left; width:100%;height:auto; background-color:orange; color:white;">
+        <div class="row" style="margin-top:30px;">
+            <div class="col-3">
+                <p>ĐỊA CHỈ</p>
+                <Address>No.12 Nguyen Van Bao Street, Ward 4, Go Vap District</Address>
+                <p>Email: nguyenan@gmail.com</p>
+                <p>Phone: 0909090909</p>
+            </div>
+            <div class="col-3">
+                <p>GIỜ HOẠT ĐỘNG</p>
+                <p>07:30 - 01:30PM</p>
+                <p>MONDAY - FRIDAY</p>
+            </div>
+            <div class="col-3">
+                <p>THEO DÕI CHÚNG TÔI</p>
+                <a style="color:white; font-size:30px" href=""><i class="fa-brands fa-facebook"></i></a> &nbsp;
+                <a style="color:white; font-size:30px;" href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="col-3">
+                <p>CHÍNH SÁCH</p>
+                <p><a style="color: white;" href="#">Chính sách đền bù</a></p>
+                <p><a style="color: white;" href="#">Chính sách bảo mật</a></p>
+            </div>
+        </div>
+        </footer>
+    </div>
+</body>
+</html>

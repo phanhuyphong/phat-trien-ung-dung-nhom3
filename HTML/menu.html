@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- cái menu này cũng đăng nhập thành công mới cho xem luôn, nào code chính thức tui sửa, giờ link vô để xem trước thôi -->
+</head>
+<body>
+    <div class="fluid-container">
+        <div class="header" style="width: 100%;height:500px; background-image:url('../IMG/menubanner.webp')">
+            <div class="row" style="height:70px;width:100%; background-color:white;text-align:center;">
+                <div class="col-4">
+                    <a title="Click here back HOME "href="../index.html"><img src="../IMG/images.jpg" alt="" class="logo" style="width:30%; height: 70px;;"></a>
+                </div>
+                <div class="col-4" style="margin-top:10px;">
+                    <ul class="navbar" style="list-style-type: none;">
+                        <li class="nav-item"><a href="../index.html">HOME</a></li>
+                        <li class="nav-item"><a href="../HTML/menu.html">MENU</a></li>
+                        <li class="nav-item"><a href="../HTML/manager.html">ABOUT</a></li>  
+                        <!-- vì lí do chưa code trang about nên toai link thử trang quản lí vào đây. Chứ không phải toai bị ngáo link nhầm, tén kiều -->
+                        <li class="nav-item"><a href="../HTML/contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row" style="margin-top:200px;">
+                <div class="col-12">
+                    <p style="text-align:center; color:white;font-size:48px;">THỰC ĐƠN MỖI NGÀY</p>
+                </div>
+            </div>
+        </div>
+        <section style="float: left; width:100%;height:auto; text-align: center;">
+        <select name="thucdontheongay" name="thucdontheongay">
+            <option value="monday">MONDAY</option>
+            <option value="tuesday">TUESDAY</option>
+            <option value="wednesday">WEDNESDAY</option>
+            <option value="thursday">THURSDAY</option>
+            <option value="friday">FRIDAY</option>
+        </select>
+        <h4 style="color:orange">MAIN</h4>
+        <div class="row" style="height:50px; background-color:whitesmoke">
+            <div class="col-3">Tên món</div>
+            <div class="col-3">Mô tả</div>
+            <div class="col-3">Giá</div>
+            <div class="col-3">Đặt món</div>
+        </div>
+        <div class="row" style="height:auto; margin-top:10px">
+            <div class="col-3"><img class="menu-img" src="../IMG/52-1200x676.jpg" alt="">
+            <p>Cơm tấm</p></div>
+            <div class="col-3" style="margin-top:50px">Gạo, thịt heo, trứng, dưa chuột, cà chua</div>
+            <div class="col-3" style="margin-top:50px">52.000 VND</div>
+            <div class="col-3" style="margin-top:50px"><i class="fa-solid fa-circle-plus fa-beat" style="color: #ff8800; font-size:30px;"></i></div>
+        </div>
+        <h4 style="color:orange">DESSERT</h4>
+        <div class="row" style="height:50px; background-color:whitesmoke">
+            <div class="col-3">Tên món</div>
+            <div class="col-3">Mô tả</div>
+            <div class="col-3">Giá</div>
+            <div class="col-3">Đặt món</div>
+        </div>
+        <div class="row" style="height:auto; margin-top:10px">
+            <div class="col-3"><img class="menu-img" src="../IMG/duahau.jpg" alt="">
+            <p>Dưa hấu</p></div>
+            <div class="col-3" style="margin-top:50px">Dưa hấu</div>
+            <div class="col-3" style="margin-top:50px">10.000VND</div>
+            <div class="col-3" style="margin-top:50px"><i class="fa-solid fa-circle-plus fa-beat" style="color: #ff8800; font-size:30px;"></i></div>
+        </div>
+        <h4 style="color:orange">DRINKS</h4>
+        <div class="row" style="height:50px; background-color:whitesmoke">
+            <div class="col-3">Tên món</div>
+            <div class="col-3">Mô tả</div>
+            <div class="col-3">Giá</div>
+            <div class="col-3">Đặt món</div>
+        </div>
+        <div class="row" style="height:auto; margin-top:10px">
+            <div class="col-3"><img class="menu-img" src="../IMG/rau-ma-dau-xanh-sua-dua-thumbnail-768x676.webp" alt="">
+            <p>Rau má đậu xanh</p></div>
+            <div class="col-3" style="margin-top:50px">Đậu xanh, rau má</div>
+            <div class="col-3" style="margin-top:50px">52.000 VND</div>
+            <div class="col-3" style="margin-top:50px"><i class="fa-solid fa-circle-plus fa-beat" style="color: #ff8800; font-size:30px;"></i></div>
+        </div>
+           
+        </section>
+        <footer style="float: left; width:100%;height:auto;background-color:orange; color:white;">
+        <div class="row" style="margin-top:30px;">
+            <div class="col-3">
+                <p>ĐỊA CHỈ</p>
+                <Address>No.12 Nguyen Van Bao Street, Ward 4, Go Vap District</Address>
+                <p>Email: nguyenan@gmail.com</p>
+                <p>Phone: 0909090909</p>
+            </div>
+            <div class="col-3">
+                <p>GIỜ HOẠT ĐỘNG</p>
+                <p>07:30 - 01:30PM</p>
+                <p>MONDAY - FRIDAY</p>
+            </div>
+            <div class="col-3">
+                <p>THEO DÕI CHÚNG TÔI</p>
+                <a style="color:white; font-size:30px" href=""><i class="fa-brands fa-facebook"></i></a> &nbsp;
+                <a style="color:white; font-size:30px;" href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="col-3">
+                <p>CHÍNH SÁCH</p>
+                <p><a style="color: white;" href="#">Chính sách đền bù</a></p>
+                <p><a style="color: white;" href="#">Chính sách bảo mật</a></p>
+            </div>
+        </div>
+        </footer>
+    </div>
+</body>
+</html>
